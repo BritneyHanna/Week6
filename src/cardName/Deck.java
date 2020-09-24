@@ -27,9 +27,17 @@ public class Deck {
 				cards.add(new Card(cardName, value));
 
 			}
-			Collections.shuffle(cards);
 
 		}
+
+	}
+
+	public Card draw() {
+		return cards.remove(0);
+	}
+
+	public void shuffle() {
+		Collections.shuffle(cards);
 
 	}
 }

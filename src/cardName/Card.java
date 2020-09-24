@@ -30,7 +30,7 @@ public class Card {
 	}
 
 	public void describe() {
-		System.out.println(toString());
+		System.out.println(this);
 	}
 
 //
