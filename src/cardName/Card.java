@@ -5,6 +5,13 @@ public class Card {
 	private int value;
 	private String name;
 
+	public Card(String name, int value) {
+		this.name = name;
+
+		this.value = value;
+
+	}
+
 	private void setValue(int value) {
 		this.value = value;
 
@@ -23,7 +30,15 @@ public class Card {
 	}
 
 	public void describe() {
-		System.out.println(this);
+		System.out.println(toString());
 	}
 
+//
+	@Override
+
+	public String toString() {
+		return name;
+	}
 }
+
+//return "[name=" + name + ",value=" + value + "]";
