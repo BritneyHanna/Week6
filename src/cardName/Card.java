@@ -2,10 +2,12 @@ package cardName;
 
 public class Card {
 
-	private int value;
 	private String name;
+	private int value;
 
 	public Card(String name, int value) {
+		this.name = name;
+		this.value = value;
 	}
 
 	public int getValue() {
@@ -25,7 +27,7 @@ public class Card {
 	}
 
 	public void describe() {
-		System.out.println("Card" + this + "of" + value);
+		System.out.println("Card " + name);
 	}
 
 }

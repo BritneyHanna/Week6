@@ -41,7 +41,7 @@ public class Player {
 	}
 
 	public void describe() {
-		System.out.println("Playername " + this.name);
+		System.out.println("Playername " + name);
 
 		for (Card i : hand) {
 			i.describe();

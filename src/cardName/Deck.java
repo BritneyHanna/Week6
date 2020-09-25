@@ -19,7 +19,7 @@ public class Deck {
 			for (int suiti = 0; suiti < suits.length; suiti++) {
 				String suit = suits[suiti];
 
-				String cardName = rank + " of" + suit;
+				String cardName = rank + " of " + suit;
 
 				int value = ranki + 2;
 
