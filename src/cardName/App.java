@@ -42,37 +42,3 @@ public class App {
 	}
 
 }
-
-//
-//		for (int i = 1; i < 52; i++) {
-//			if (i % 2 == 0) {
-//				Bob.draw(deck);
-//			} else {
-//				Tony.draw(deck);
-//			}
-//			Card bobCard = Bob.flip();
-//			Card tonyCard = Tony.flip();
-//
-//			if (bobCard.getValue() > tonyCard.getValue()) {
-//				Bob.incrementScore();
-//			} else if (tonyCard.getValue() > bobCard.getValue()) {
-//				Tony.incrementScore();
-//			} else {
-//				Tony.incrementScore();
-//				Bob.incrementScore();
-//			}
-//
-//			int bobScore = Bob.getScore();
-//			int tonyScore = Tony.getScore();
-//
-//			if (bobScore == tonyScore) {
-//				System.out.println("It was a draw between" + Bob.getName() + "and" + Tony.getName());
-//			} else if (bobScore > tonyScore) {
-//				System.out.println("Bob is the winner!!!");
-//			} else {
-//				System.out.println("Tony is the winner");
-//			}
-//
-//		
-//	
-//
